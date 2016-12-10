@@ -1,0 +1,7 @@
+---
+# file: site.yml
+- name: Start Playbook
+  hosts: localhost
+  become: yes
+  roles:
+    - common
